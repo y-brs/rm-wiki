@@ -1,14 +1,20 @@
 # Rick and Morty Character Wiki
 
-The topics we'll cover while building this project are:
-React Hooks (useState, useEffect)
-React Components
-Fetch API
-Bootstrap (for styling)
-Pagination
-Search bar
-Data Filtering
-Dynamic Routing
+https://rm-wiki-5fb07d.netlify.app
+
+## Stack
+- React Hooks (useState, useEffect)
+- React Components
+- Fetch API
+- Bootstrap (for styling)
+- Pagination
+- Search bar
+- Data Filtering
+- Dynamic Routing
+
+### Screenshot
+
+![Screenshot 2021-11-24 at 20 24 58](https://user-images.githubusercontent.com/68222437/143286239-5efbd879-d074-48cc-a9cf-1965fb6aecb7.png)
 
 ## Getting Started with Create React App
 
