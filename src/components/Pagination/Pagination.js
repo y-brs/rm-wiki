@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import ReactPaginate from "react-paginate"
 
-export const Pagination = ({ pageNumber, info, updatePageNumber }) => {
+const Pagination = ({ pageNumber, info, updatePageNumber }) => {
   let pageChange = (data) => {
     updatePageNumber(data.selected + 1)
   }
@@ -18,7 +18,7 @@ export const Pagination = ({ pageNumber, info, updatePageNumber }) => {
 
   return (
     <>
-      <style jsx>
+      <style jsx="true">
         {`
           @media (max-width: 768px) {
             .pagination {
@@ -56,3 +56,5 @@ export const Pagination = ({ pageNumber, info, updatePageNumber }) => {
     </>
   )
 }
+
+export default Pagination

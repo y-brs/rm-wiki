@@ -1,6 +1,6 @@
 import styles from "./Search.module.scss";
 
-export const Search = ({ setSearch, updatePageNumber }) => {
+const Search = ({ setSearch, updatePageNumber }) => {
   let searchBtn = (e) => {
     e.preventDefault()
   }
@@ -27,3 +27,5 @@ export const Search = ({ setSearch, updatePageNumber }) => {
     </form>
   );
 }
+
+export default Search
